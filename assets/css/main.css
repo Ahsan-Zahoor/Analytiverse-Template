@@ -482,8 +482,10 @@ h6 {
 # Global Footer
 --------------------------------------------------------------*/
 .footer {
-  color: var(--default-color);
-  background-color: var(--background-color);
+  /* color: var(--default-color); */
+  /* background-color: var(--background-color); */
+  background-color: #021023;
+  color: white; 
   font-size: 14px;
   padding-bottom: 50px;
   position: relative;
@@ -613,9 +615,11 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
+  /* border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%); */
+  border: 1px solid white;
   font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  /* color: color-mix(in srgb, var(--default-color), transparent 20%); */
+  color: white;
   margin-right: 10px;
   transition: 0.3s;
 }
@@ -646,13 +650,15 @@ h6 {
   margin-right: 3px;
   font-size: 12px;
   line-height: 0;
-  color: var(--accent-color);
+  /* color: var(--accent-color); */
+  color: white;
 }
 
 .footer .footer-links ul li {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .footer .footer-links ul li:first-child {
@@ -661,8 +667,10 @@ h6 {
 
 .footer .footer-links ul a {
   display: inline-block;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  /* color: color-mix(in srgb, var(--default-color), transparent 20%); */
+  color: white;
   line-height: 1;
+  font-weight: 600;
 }
 
 .footer .footer-links ul a:hover {
@@ -1017,6 +1025,10 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.about{
+  background-color: #021023;
+  color: white;
+}
 .about ul {
   list-style: none;
   padding: 0;
@@ -1662,7 +1674,9 @@ color-mix(in srgb, white, transparent 60%);
 # Contact Section
 --------------------------------------------------------------*/
 .contact {
-  --background-color: color-mix(in srgb, var(--heading-color), transparent 95%);
+  /* --background-color: color-mix(in srgb, var(--heading-color), transparent 95%); */
+  background-color: #021023;
+  color: white;
 }
 
 .contact .info-wrap {
@@ -1785,11 +1799,11 @@ color-mix(in srgb, white, transparent 60%);
   box-shadow: none;
   border-radius: 0;
   color: var(--default-color);
-  background-color: color-mix(
+  /* background-color: color-mix(
     in srgb,
     var(--background-color),
     transparent 50%
-  );
+  ); */background-color: white;
   border-color: color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
