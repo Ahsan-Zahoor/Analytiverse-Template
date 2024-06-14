@@ -4,11 +4,12 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Jost", sans-serif;
-  --nav-font: "Poppins", sans-serif;
+  /* --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans","Nunito Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+    --default-font:"Nunito Sans", sans-serif;
+  --heading-font: "Nunito Sans", sans-serif;
+  --nav-font: "Nunito Sans", sans-serif;
 }
 
 /* Global Colors */
@@ -123,6 +124,7 @@ h6 {
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
+  border-bottom: 1px solid rgb(232, 232, 232);
 }
 
 .header .logo {
@@ -188,6 +190,7 @@ h6 {
 ------------------------------*/
 .index-page.scrolled .header {
   --background-color: rgba(40, 58, 90, 0.9);
+  border-bottom: 0;
 }
 
 /*--------------------------------------------------------------
@@ -215,7 +218,7 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-color);
     padding: 18px 15px;
-    font-size: 15px;
+    font-size: 18px;
     font-family: var(--nav-font);
     font-weight: 400;
     display: flex;
@@ -670,7 +673,7 @@ h6 {
   /* color: color-mix(in srgb, var(--default-color), transparent 20%); */
   color: white;
   line-height: 1;
-  font-weight: 600;
+  font-weight: 00;
 }
 
 .footer .footer-links ul a:hover {
@@ -1705,7 +1708,7 @@ color-mix(in srgb, white, transparent 60%);
 }
 
 .contact .info-item i {
-  font-size: 20px;
+  font-size: 24px;
   color: var(--accent-color);
   background: color-mix(in srgb, var(--accent-color), transparent 92%);
   width: 44px;
@@ -1798,13 +1801,16 @@ color-mix(in srgb, white, transparent 60%);
   padding: 10px 15px;
   box-shadow: none;
   border-radius: 0;
-  color: var(--default-color);
+  /* color: var(--default-color); */
+  color: white;
   /* background-color: color-mix(
     in srgb,
     var(--background-color),
     transparent 50%
-  ); */background-color: white;
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  ); */background-color: #021023;
+  border-radius: 5px;
+
+  /* border-color: color-mix(in srgb, var(--default-color), transparent 80%); */
 }
 
 .contact .php-email-form input[type="text"]:focus,
