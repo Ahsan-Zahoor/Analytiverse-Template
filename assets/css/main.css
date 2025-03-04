@@ -1272,6 +1272,13 @@ section,
   color: white;
 }
 
+.skills .content .mission-p-bg {
+  background-color: #37517e;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
 .skills .content p:last-child {
   margin-bottom: 0;
 }
