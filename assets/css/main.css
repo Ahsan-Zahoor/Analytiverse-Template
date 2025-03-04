@@ -1534,6 +1534,8 @@ section,
   transition: 0.3s ease-in-out;
   visibility: hidden;
   opacity: 0;
+  height: 0;
+  overflow: hidden;
 }
 
 .faq-2 .faq-container .faq-item .faq-content p {
@@ -1575,6 +1577,7 @@ section,
   visibility: visible;
   opacity: 1;
   padding-top: 10px;
+  height: auto;
 }
 
 .faq-2 .faq-container .faq-active .faq-toggle {
